@@ -1,0 +1,6 @@
+framework module BeesKingLib {
+  umbrella header "BeesKingLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
