@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.4'
+  s.version          =  '0.0.5'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -26,17 +26,23 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 's18782934812' => '836152122@qq.com' }
   s.source           = { :git => 'https://github.com/s18782934812/BeesKingLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'BeesKingLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BeesKingLib' => ['BeesKingLib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'BeesKingCommon' do |ss|
+    ss.ios.deployment_target = '8.0'
+    ss.source_files = 'BeesKingLib/BKCommon/**/*.{h,m}'
+    ss.frameworks = 'UIKit','Foundation'
+  end
+  
+  s.subspec 'BeesKingNetWork' do |ss|
+    ss.ios.deployment_target = '8.0'
+    ss.source_files = 'BeesKingLib/BKNetWork/**/*.{h,m,mm}'
+    ss.frameworks = 'UIKit','Foundation'
+  end
+  
+  s.subspec 'BessKingMediator' do |ss|
+    ss.ios.deployment_target = '8.0'
+    ss.ios.source_files = 'BeesKingLib/BKMediator/**/*.{h,m,mm}'
+    ss.ios.frameworks = 'UIKit','Foundation'
 end
+
+
