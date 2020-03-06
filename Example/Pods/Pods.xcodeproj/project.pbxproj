@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05930B73BAFC4F8061E1D956391DB868 /* BeesKingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC292E547B80A0B6827B87EA53DD096 /* BeesKingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05930B73BAFC4F8061E1D956391DB868 /* BeesKingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD5D4E5851B781C5D06DBCBDF6882F3 /* BeesKingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DD4183089B3720B8B22DE275C5DEFD6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		1AA50D96FAB8EA737B353783B2EBB694 /* Pods-BeesKingLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7F4F959D11C79A5F538803B28702A /* Pods-BeesKingLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,9 +15,9 @@
 		1E2A893F6AEA53172BA022B76B228C49 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B3773BB4C0B0E0018715C0339EEAC4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */; };
 		2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		3312EC0F71745CE5F8779E9A0C01E6F2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D45DC1D6DDFF4F371A66D925FE99A9 /* ReplaceMe.m */; };
+		3312EC0F71745CE5F8779E9A0C01E6F2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 39212472C418B1DC1A9CE545BAAB3309 /* ReplaceMe.m */; };
 		35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		4819ACDCCDE06A76BEDCE3B80B98DCE6 /* BeesKingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5EB94050489AC0D80C8B5E62F0062A /* BeesKingLib-dummy.m */; };
+		4819ACDCCDE06A76BEDCE3B80B98DCE6 /* BeesKingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 004AE91A88DC44EF9A39A4E2BB72AE8C /* BeesKingLib-dummy.m */; };
 		4CF8A6092DC4EEF90367C6C6440DEE86 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		6A1F0AD6F0F6E4520C5AD36DBFBAA489 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E14C2234087754D4B40C4B25A092 /* QuartzCore.framework */; };
 		6A5F25E314DC73922170019BE01816EE /* Pods-BeesKingLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38A6F91DA352EB457C1DA2E7616765 /* Pods-BeesKingLib_Tests-dummy.m */; };
@@ -27,10 +27,10 @@
 		791C03EFFF06649DA66FAF30BC35CD16 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B58017AB63DDD306CC76C8657694C3E /* Pods-BeesKingLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1AF881DD73D09EE8588E20EDD77E49 /* Pods-BeesKingLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8508685F4B3DFD4E93B29948FA0ACF83 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86F933CC35BE1B8784093B40A29F063D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595DDF5764FB74045AC67590A3152E3 /* ReplaceMe.m */; };
+		86F933CC35BE1B8784093B40A29F063D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB13B6D53CD94478D87171825FA5D0 /* ReplaceMe.m */; };
 		8B9305CB63DC2EF61D49C153E2DA250F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
 		929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		93EB43ECEB2C92645CD5C39986D6FDDB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F254726B1D2CB89AA38B30DA20EFA2 /* ReplaceMe.m */; };
+		93EB43ECEB2C92645CD5C39986D6FDDB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6594F3F154CEB0E4125DA7BF16E23 /* ReplaceMe.m */; };
 		A94808B213D1D8D781AD48224C0300B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
 		AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		BE1A50E1C2AAD0BA5A6CCA2AB34B32F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */; };
@@ -68,66 +68,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004AE91A88DC44EF9A39A4E2BB72AE8C /* BeesKingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeesKingLib-dummy.m"; sourceTree = "<group>"; };
 		0064BA1269ADCC221C6217A0800F15D4 /* Pods-BeesKingLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0D4D721348D2458AE1991F7A7ED5F8FB /* BeesKingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-prefix.pch"; sourceTree = "<group>"; };
 		0D6B46389AAC0634D017E20DB17729A9 /* Pods-BeesKingLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeesKingLib_Example-dummy.m"; sourceTree = "<group>"; };
+		0D9BF1D3B44683BDD9CE50C89900DB5A /* BeesKingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeesKingLib.xcconfig; sourceTree = "<group>"; };
 		12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1478C4579BD2CC03E228F15285B9D178 /* BeesKingLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BeesKingLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1F1AF881DD73D09EE8588E20EDD77E49 /* Pods-BeesKingLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeesKingLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2DC292E547B80A0B6827B87EA53DD096 /* BeesKingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-umbrella.h"; sourceTree = "<group>"; };
-		3595DDF5764FB74045AC67590A3152E3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKNetWork/ReplaceMe.m; sourceTree = "<group>"; };
+		3797647E2411F06000DB8A08 /* BeesKingLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeesKingLib.h; path = BeesKingLib/BeesKingLib.h; sourceTree = "<group>"; };
+		39212472C418B1DC1A9CE545BAAB3309 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKMediator/ReplaceMe.m; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3D787CAECF07D49E7CA797FEA2849789 /* Pods_BeesKingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeesKingLib_Tests.framework; path = "Pods-BeesKingLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D787CAECF07D49E7CA797FEA2849789 /* Pods_BeesKingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeesKingLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		4227A5156916D6C0BA2A9A555F68B52F /* Pods-BeesKingLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		43F254726B1D2CB89AA38B30DA20EFA2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKCommon/ReplaceMe.m; sourceTree = "<group>"; };
 		4A2F85764AC1D8145B52098BDDFDCBD1 /* Pods-BeesKingLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeesKingLib_Example.modulemap"; sourceTree = "<group>"; };
 		4EC88C87949A681A6739C32173627BFC /* Pods-BeesKingLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeesKingLib_Tests.modulemap"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DB13B6D53CD94478D87171825FA5D0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKNetWork/ReplaceMe.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD5D4E5851B781C5D06DBCBDF6882F3 /* BeesKingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-umbrella.h"; sourceTree = "<group>"; };
 		61A461C34DD1074DBE5F1D78EFD7B028 /* Pods-BeesKingLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		72AA758AFD6F4AFDAB8D31F208A88AE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		75B7F4F959D11C79A5F538803B28702A /* Pods-BeesKingLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeesKingLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		7E4FD5F868DDD59A91D2066915EC2091 /* BeesKingLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BeesKingLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8006D00E9C5AA6D0AF3EFF6D24D209D0 /* BeesKingLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeesKingLib-Info.plist"; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		862E390C299EC2B6298D2F067B4E6368 /* BeesKingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeesKingLib.xcconfig; sourceTree = "<group>"; };
 		880E551A5AFA32E9F7D0B8D002093824 /* Pods-BeesKingLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		89E87E355E7AFD9541EA1E83555C22E1 /* BeesKingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeesKingLib.framework; path = BeesKingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E87E355E7AFD9541EA1E83555C22E1 /* BeesKingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeesKingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFC6DB9C7C227428AD7F6E938B82A5D /* BeesKingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-prefix.pch"; sourceTree = "<group>"; };
 		8DF569DF039CB8BA7772FBE567ADDAF3 /* Pods-BeesKingLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99A6594F3F154CEB0E4125DA7BF16E23 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKCommon/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A38B48E884FDE1514F0E3DF47820F22B /* BeesKingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeesKingLib.modulemap; sourceTree = "<group>"; };
-		A5EF39F886DF8A835B681090F54ADCEA /* Pods_BeesKingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeesKingLib_Example.framework; path = "Pods-BeesKingLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EF39F886DF8A835B681090F54ADCEA /* Pods_BeesKingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeesKingLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AB38A6F91DA352EB457C1DA2E7616765 /* Pods-BeesKingLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeesKingLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		ACE56472ECE61F6E512B9F647C49B999 /* Pods-BeesKingLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeesKingLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B2444224889B2767B0F0AC26097EE2FF /* BeesKingLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeesKingLib-Info.plist"; sourceTree = "<group>"; };
 		B7832B55184527755EFDD4A7C1811DCA /* Pods-BeesKingLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C07CB9C9626700AC9961F7B93DBB0243 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C10054DF3831ED1287F8BFC5BC8413FE /* Pods-BeesKingLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeesKingLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C37E10EDEE3D70201E5CACECCC0BD079 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C459BE9B824A41D2B2FB70DC0BC6F0F6 /* Pods-BeesKingLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Example-Info.plist"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D3D45DC1D6DDFF4F371A66D925FE99A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKMediator/ReplaceMe.m; sourceTree = "<group>"; };
 		D400E14C2234087754D4B40C4B25A092 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D7733836E96DB7A0A88B6A688C87F8C6 /* Pods-BeesKingLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeesKingLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		DE5EB94050489AC0D80C8B5E62F0062A /* BeesKingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeesKingLib-dummy.m"; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E6E621565990D0AEFBB5121F82478503 /* BeesKingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeesKingLib.modulemap; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EEA60102F88253F857A103B7992C3792 /* Pods-BeesKingLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeesKingLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FB42483FF0DD4E362F1E9A0429FBAD33 /* Pods-BeesKingLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE15E1394BC4D1BFF9363850A68EC459 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,25 +171,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01AA1B130D14A19635DFFE415E475607 /* BeesKingNetWork */ = {
+		1A4A4CA3097903CCAB61AC6B7E9B9936 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3595DDF5764FB74045AC67590A3152E3 /* ReplaceMe.m */,
+				1478C4579BD2CC03E228F15285B9D178 /* BeesKingLib.podspec */,
+				C37E10EDEE3D70201E5CACECCC0BD079 /* LICENSE */,
+				C07CB9C9626700AC9961F7B93DBB0243 /* README.md */,
 			);
-			name = BeesKingNetWork;
-			sourceTree = "<group>";
-		};
-		0AFF9AF50ADF228B0B371DD2999B2366 /* BeesKingLib */ = {
-			isa = PBXGroup;
-			children = (
-				F725231D53F20B86ED4BD009B8929B86 /* BeesKingCommon */,
-				01AA1B130D14A19635DFFE415E475607 /* BeesKingNetWork */,
-				C4034326B523A7ECC5AA2D7D694D6D96 /* BessKingMediator */,
-				F3E0D183C5671972609C695BF3A61348 /* Pod */,
-				D98C1A24023C0E9B9B15EB3941D5714B /* Support Files */,
-			);
-			name = BeesKingLib;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		1D668FE101AB8C2CDE6CD805E9E30801 /* Targets Support Files */ = {
@@ -203,7 +193,7 @@
 		3DCC0F7D7111A1DD034960E882C98A58 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AFF9AF50ADF228B0B371DD2999B2366 /* BeesKingLib */,
+				CB53164E9E0BBEB1B0F379D2FF6A8D88 /* BeesKingLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -223,6 +213,22 @@
 			);
 			name = "Pods-BeesKingLib_Example";
 			path = "Target Support Files/Pods-BeesKingLib_Example";
+			sourceTree = "<group>";
+		};
+		4397A6A58829579DB0527E66DC748ED3 /* BKMediator */ = {
+			isa = PBXGroup;
+			children = (
+				39212472C418B1DC1A9CE545BAAB3309 /* ReplaceMe.m */,
+			);
+			name = BKMediator;
+			sourceTree = "<group>";
+		};
+		4479E912335E7BD4E9475DB08CE5E0F8 /* BKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				99A6594F3F154CEB0E4125DA7BF16E23 /* ReplaceMe.m */,
+			);
+			name = BKCommon;
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -250,6 +256,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5F2309B41BF8F9F74DBEE3072785A636 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E621565990D0AEFBB5121F82478503 /* BeesKingLib.modulemap */,
+				0D9BF1D3B44683BDD9CE50C89900DB5A /* BeesKingLib.xcconfig */,
+				004AE91A88DC44EF9A39A4E2BB72AE8C /* BeesKingLib-dummy.m */,
+				B2444224889B2767B0F0AC26097EE2FF /* BeesKingLib-Info.plist */,
+				8BFC6DB9C7C227428AD7F6E938B82A5D /* BeesKingLib-prefix.pch */,
+				5CD5D4E5851B781C5D06DBCBDF6882F3 /* BeesKingLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BeesKingLib";
+			sourceTree = "<group>";
+		};
 		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,7 +285,6 @@
 				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
 				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -315,12 +334,18 @@
 			path = "Target Support Files/Pods-BeesKingLib_Tests";
 			sourceTree = "<group>";
 		};
-		C4034326B523A7ECC5AA2D7D694D6D96 /* BessKingMediator */ = {
+		CB53164E9E0BBEB1B0F379D2FF6A8D88 /* BeesKingLib */ = {
 			isa = PBXGroup;
 			children = (
-				D3D45DC1D6DDFF4F371A66D925FE99A9 /* ReplaceMe.m */,
+				4479E912335E7BD4E9475DB08CE5E0F8 /* BKCommon */,
+				4397A6A58829579DB0527E66DC748ED3 /* BKMediator */,
+				E57F7376298362B18F6F033050E15A7F /* BKNetWork */,
+				1A4A4CA3097903CCAB61AC6B7E9B9936 /* Pod */,
+				5F2309B41BF8F9F74DBEE3072785A636 /* Support Files */,
+				3797647E2411F06000DB8A08 /* BeesKingLib.h */,
 			);
-			name = BessKingMediator;
+			name = BeesKingLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -335,18 +360,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		D98C1A24023C0E9B9B15EB3941D5714B /* Support Files */ = {
+		E57F7376298362B18F6F033050E15A7F /* BKNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				A38B48E884FDE1514F0E3DF47820F22B /* BeesKingLib.modulemap */,
-				862E390C299EC2B6298D2F067B4E6368 /* BeesKingLib.xcconfig */,
-				DE5EB94050489AC0D80C8B5E62F0062A /* BeesKingLib-dummy.m */,
-				8006D00E9C5AA6D0AF3EFF6D24D209D0 /* BeesKingLib-Info.plist */,
-				0D4D721348D2458AE1991F7A7ED5F8FB /* BeesKingLib-prefix.pch */,
-				2DC292E547B80A0B6827B87EA53DD096 /* BeesKingLib-umbrella.h */,
+				53DB13B6D53CD94478D87171825FA5D0 /* ReplaceMe.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BeesKingLib";
+			name = BKNetWork;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -355,16 +374,6 @@
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F3E0D183C5671972609C695BF3A61348 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7E4FD5F868DDD59A91D2066915EC2091 /* BeesKingLib.podspec */,
-				72AA758AFD6F4AFDAB8D31F208A88AE9 /* LICENSE */,
-				FE15E1394BC4D1BFF9363850A68EC459 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F47A836774CE51BB8AE4F2A0BEB220CD /* iOS */ = {
@@ -376,14 +385,6 @@
 				07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F725231D53F20B86ED4BD009B8929B86 /* BeesKingCommon */ = {
-			isa = PBXGroup;
-			children = (
-				43F254726B1D2CB89AA38B30DA20EFA2 /* ReplaceMe.m */,
-			);
-			name = BeesKingCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,8 +582,8 @@
 			files = (
 				4819ACDCCDE06A76BEDCE3B80B98DCE6 /* BeesKingLib-dummy.m in Sources */,
 				93EB43ECEB2C92645CD5C39986D6FDDB /* ReplaceMe.m in Sources */,
-				86F933CC35BE1B8784093B40A29F063D /* ReplaceMe.m in Sources */,
 				3312EC0F71745CE5F8779E9A0C01E6F2 /* ReplaceMe.m in Sources */,
+				86F933CC35BE1B8784093B40A29F063D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +637,7 @@
 /* Begin XCBuildConfiguration section */
 		33132C98D33BCE4F94B0497AC17954FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862E390C299EC2B6298D2F067B4E6368 /* BeesKingLib.xcconfig */;
+			baseConfigurationReference = 0D9BF1D3B44683BDD9CE50C89900DB5A /* BeesKingLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -700,7 +701,7 @@
 		};
 		498B356BB4AF4D557FA9296B7563AF14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862E390C299EC2B6298D2F067B4E6368 /* BeesKingLib.xcconfig */;
+			baseConfigurationReference = 0D9BF1D3B44683BDD9CE50C89900DB5A /* BeesKingLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -783,8 +784,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

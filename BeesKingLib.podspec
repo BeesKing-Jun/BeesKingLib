@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.7'
+  s.version          =  '0.0.8'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 's18782934812' => '836152122@qq.com' }
   s.source           = { :git => 'https://github.com/s18782934812/BeesKingLib.git', :tag => s.version.to_s }
+  s.platform     = :ios, "8.0"
   
   s.subspec 'BKCommon' do |ss|
     ss.ios.deployment_target = '8.0'
@@ -44,9 +45,8 @@ TODO: Add long description of the pod here.
     ss.ios.source_files = 'BeesKingLib/BKMediator/**/*.{h,m,mm}'
     ss.ios.frameworks = 'UIKit','Foundation'
   end
-  s.dependency 'BeesKingLib/BKCommon'
-  s.dependency 'BeesKingLib/BKNetWork'
-  s.dependency 'BeesKingLib/BKMediator'
+  s.source_files = 'BeesKingLib/BeesKingLib.h'
+  s.public_header_files = 'BeesKingLib/BeesKingLib.h'
 end
 
 
