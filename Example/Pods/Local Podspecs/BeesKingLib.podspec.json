@@ -1,6 +1,6 @@
 {
   "name": "BeesKingLib",
-  "version": "0.1.0",
+  "version": "0.0.5",
   "summary": "A short description of BeesKingLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/s18782934812/BeesKingLib",
@@ -13,10 +13,49 @@
   },
   "source": {
     "git": "https://github.com/s18782934812/BeesKingLib.git",
-    "tag": "0.1.0"
+    "tag": "0.0.5"
   },
   "platforms": {
-    "ios": "8.0"
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   },
-  "source_files": "BeesKingLib/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "BeesKingCommon",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "BeesKingLib/BKCommon/**/*.{h,m}",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ]
+    },
+    {
+      "name": "BeesKingNetWork",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "BeesKingLib/BKNetWork/**/*.{h,m,mm}",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ]
+    },
+    {
+      "name": "BessKingMediator",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "ios": {
+        "source_files": "BeesKingLib/BKMediator/**/*.{h,m,mm}",
+        "frameworks": [
+          "UIKit",
+          "Foundation"
+        ]
+      }
+    }
+  ]
 }

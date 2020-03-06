@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.5'
+  s.version          =  '0.0.6'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -43,6 +43,7 @@ TODO: Add long description of the pod here.
     ss.ios.deployment_target = '8.0'
     ss.ios.source_files = 'BeesKingLib/BKMediator/**/*.{h,m,mm}'
     ss.ios.frameworks = 'UIKit','Foundation'
+  end
 end
 
 
