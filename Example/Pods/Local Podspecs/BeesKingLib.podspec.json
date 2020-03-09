@@ -1,6 +1,6 @@
 {
   "name": "BeesKingLib",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "A short description of BeesKingLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/s18782934812/BeesKingLib",
@@ -13,14 +13,13 @@
   },
   "source": {
     "git": "https://github.com/s18782934812/BeesKingLib.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+    "ios": "8.0"
   },
+  "source_files": "BeesKingLib/BeesKingLib.h",
+  "public_header_files": "BeesKingLib/BeesKingLib.h",
   "subspecs": [
     {
       "name": "BKCommon",
@@ -28,6 +27,17 @@
         "ios": "8.0"
       },
       "source_files": "BeesKingLib/BKCommon/**/*.{h,m}",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ]
+    },
+    {
+      "name": "BKCategory",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "BeesKingLib/BKCategory/*.{h,m}",
       "frameworks": [
         "UIKit",
         "Foundation"

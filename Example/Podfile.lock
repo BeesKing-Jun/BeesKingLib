@@ -1,11 +1,13 @@
 PODS:
-  - BeesKingLib (0.0.7):
-    - BeesKingLib/BKCommon (= 0.0.7)
-    - BeesKingLib/BKMediator (= 0.0.7)
-    - BeesKingLib/BKNetWork (= 0.0.7)
-  - BeesKingLib/BKCommon (0.0.7)
-  - BeesKingLib/BKMediator (0.0.7)
-  - BeesKingLib/BKNetWork (0.0.7)
+  - BeesKingLib (0.0.8):
+    - BeesKingLib/BKCategory (= 0.0.8)
+    - BeesKingLib/BKCommon (= 0.0.8)
+    - BeesKingLib/BKMediator (= 0.0.8)
+    - BeesKingLib/BKNetWork (= 0.0.8)
+  - BeesKingLib/BKCategory (0.0.8)
+  - BeesKingLib/BKCommon (0.0.8)
+  - BeesKingLib/BKMediator (0.0.8)
+  - BeesKingLib/BKNetWork (0.0.8)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -25,7 +27,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BeesKingLib: 4aa2860a3036756eee8a1f609bc748dafaf25e74
+  BeesKingLib: 3c952cd82267115bbe260f9b70230d3a356a307e
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: a450e1b3ecf9b2cb965908be450994d5be82f218

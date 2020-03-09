@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.8'
+  s.version          =  '0.0.9'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,11 @@ TODO: Add long description of the pod here.
   s.subspec 'BKCommon' do |ss|
     ss.ios.deployment_target = '8.0'
     ss.source_files = 'BeesKingLib/BKCommon/**/*.{h,m}'
+    ss.frameworks = 'UIKit','Foundation'
+  end
+  s.subspec 'BKCategory' do |ss|
+    ss.ios.deployment_target = '8.0'
+    ss.source_files = 'BeesKingLib/BKCategory/*.{h,m}'
     ss.frameworks = 'UIKit','Foundation'
   end
   

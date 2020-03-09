@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BeesKingLib.h"
+#import "UIControl+BKFixMultiClick.h"
+#import "BKMediator.h"
 
 FOUNDATION_EXPORT double BeesKingLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char BeesKingLibVersionString[];
