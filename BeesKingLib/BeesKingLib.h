@@ -1,8 +1,9 @@
 //
 //  BeesKingLib.h
-//  Pods
+//  BeesKingLib
 //
 //  Created by WJ on 2020/3/6.
+//  Copyright © 2020年 BeesKingLib. All rights reserved.
 //
 
 #ifndef BeesKingLib_h

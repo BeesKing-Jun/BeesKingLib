@@ -3,7 +3,7 @@
 //  BeesKingLib
 //
 //  Created by WJ on 2020/3/9.
-//  Copyright © 2020年 WJ. All rights reserved.
+//  Copyright © 2020年 BeesKingLib. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
