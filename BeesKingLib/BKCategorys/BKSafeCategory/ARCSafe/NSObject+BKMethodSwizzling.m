@@ -3,6 +3,7 @@
 //  BeesKingLib
 //
 //  Created by WJ on 2020/3/11.
+//  Copyright © 2020年 WJ. All rights reserved.
 //  
 
 #import "NSObject+BKMethodSwizzling.h"
