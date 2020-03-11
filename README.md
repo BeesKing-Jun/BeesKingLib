@@ -35,6 +35,7 @@ pod 'BeesKingLib'
     主要是常用的分类， BKSafeCategory用于字典、数组安全处理，其中NSMutableArray 编译为MRC模式。
     NSObject+BKCatchException:用于异常捕获，可以在有exception的地方调用里面的方法
     UIControl+BKFixMultiClick:用于UIControl及子类的防止重复点击
+    NSObject+BKUnicode:此文件用于打印的时候，将文字转成--utf8输出,无需import
     
     2.BKMediator
     中间组件，目前是用的CTMediator代码

@@ -12,6 +12,7 @@
 
 #import "BeesKingLib.h"
 #import "NSObject+BKCatchException.h"
+#import "NSObject+BKUnicode.h"
 #import "UIControl+BKFixMultiClick.h"
 #import "NSArray+BKSafeCategory.h"
 #import "NSDictionary+BKSafeCategory.h"
