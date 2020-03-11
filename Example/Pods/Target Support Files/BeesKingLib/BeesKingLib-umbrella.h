@@ -11,7 +11,13 @@
 #endif
 
 #import "BeesKingLib.h"
+#import "NSObject+BKCatchException.h"
 #import "UIControl+BKFixMultiClick.h"
+#import "NSArray+BKSafeCategory.h"
+#import "NSDictionary+BKSafeCategory.h"
+#import "NSMutableDictionary+BKSafeCategory.h"
+#import "NSObject+BKMethodSwizzling.h"
+#import "NSMutableArray+BKSafeCategory.h"
 #import "BKMediator.h"
 
 FOUNDATION_EXPORT double BeesKingLibVersionNumber;

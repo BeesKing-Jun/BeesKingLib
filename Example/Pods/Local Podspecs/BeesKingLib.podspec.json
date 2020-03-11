@@ -1,6 +1,6 @@
 {
   "name": "BeesKingLib",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "summary": "A short description of BeesKingLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/s18782934812/BeesKingLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/s18782934812/BeesKingLib.git",
-    "tag": "0.0.8"
+    "tag": "0.0.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -33,14 +33,33 @@
       ]
     },
     {
-      "name": "BKCategory",
+      "name": "BKCategorys",
       "platforms": {
         "ios": "8.0"
       },
-      "source_files": "BeesKingLib/BKCategory/*.{h,m}",
       "frameworks": [
         "UIKit",
         "Foundation"
+      ],
+      "subspecs": [
+        {
+          "name": "BKCategory",
+          "platforms": {
+            "ios": "8.0"
+          },
+          "source_files": "BeesKingLib/BKCategorys/BKCategory/*.{h,m}"
+        },
+        {
+          "name": "BKSafeCategory",
+          "platforms": {
+            "ios": "8.0"
+          },
+          "requires_arc": "BeesKingLib/BKCategorys/BKSafeCategory/ARCSafe/*.{h,m}",
+          "source_files": [
+            "BeesKingLib/BKCategorys/BKSafeCategory/ARCSafe/*.{h,m}",
+            "BeesKingLib/BKCategorys/BKSafeCategory/*.{h,m}"
+          ]
+        }
       ]
     },
     {

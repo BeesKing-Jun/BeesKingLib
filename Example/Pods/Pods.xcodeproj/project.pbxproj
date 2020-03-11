@@ -8,43 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		0DD4183089B3720B8B22DE275C5DEFD6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		0E17954D4820395188782EC776751FFC /* BeesKingLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C8FE6ED97AF06FE70D9C8834245B04 /* BeesKingLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		140BB4FFA44C3F0122124444C6BFDEA0 /* NSObject+BKMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE22EB822BEEB1AA7652CFACEED41C3 /* NSObject+BKMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AA50D96FAB8EA737B353783B2EBB694 /* Pods-BeesKingLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7F4F959D11C79A5F538803B28702A /* Pods-BeesKingLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BA8502BC67A7C596CAC25AF208AD2D2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		1E2A893F6AEA53172BA022B76B228C49 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0CEE15AD5B15D23F9D640FACD6ABE6 /* NSObject+BKMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE0CD3D31A5CCF13C931FF65FE35D0 /* NSObject+BKMethodSwizzling.m */; };
+		2F041071F712E1E7A8883A97F57869C5 /* NSArray+BKSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B605B089C290ADF270E28481DC22D5 /* NSArray+BKSafeCategory.m */; };
 		2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		46D76FEE52B881E312949CCDFD65C831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */; };
-		4C2ACFFA89806770CC8E93907AD70FD7 /* BeesKingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D1FBF0AD7BEBA0787CCD2F71DAD6D7 /* BeesKingLib-dummy.m */; };
+		39F827E4DA24BD8E79885E1A95487F2D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0F3FA16BD42794027B42A7F6533B8 /* ReplaceMe.m */; };
 		4CF8A6092DC4EEF90367C6C6440DEE86 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		4D10F218A04E9C42734BED6BB01F2DBB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A98648C93681BCB36CD41A1E7D2681 /* ReplaceMe.m */; };
+		67C6D0FBF2BFFE80606197FCFF9DDF84 /* BeesKingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F39AC40E92DE54FE24335ED56320DF /* BeesKingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69B65BC192A23BB661997224238629A0 /* NSMutableArray+BKSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE3E464173FD1CC42A22765A7A18CB /* NSMutableArray+BKSafeCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69BF9C4602E058E4063B62D36126C4F2 /* NSDictionary+BKSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5566BB31249718FC8587FA7460D665AD /* NSDictionary+BKSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A1F0AD6F0F6E4520C5AD36DBFBAA489 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E14C2234087754D4B40C4B25A092 /* QuartzCore.framework */; };
+		6A50D4A68C308B93CF47C7CB10E6EFDD /* NSMutableArray+BKSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A4E8C280C30BA9DEE2F40889B50AAA /* NSMutableArray+BKSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A5F25E314DC73922170019BE01816EE /* Pods-BeesKingLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38A6F91DA352EB457C1DA2E7616765 /* Pods-BeesKingLib_Tests-dummy.m */; };
 		6C521CCD8750EEEEA73708F8C1D89916 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6D37D81E7017C1D35A7F68314FDF04B7 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7518ACBC84295D89C9E367AB445CE9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
 		791C03EFFF06649DA66FAF30BC35CD16 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B58017AB63DDD306CC76C8657694C3E /* Pods-BeesKingLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1AF881DD73D09EE8588E20EDD77E49 /* Pods-BeesKingLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83876584C3DBFBD4151BFAD01D7C79FC /* UIControl+BKFixMultiClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8A0BCF835474CB4996E4F4D986AE32 /* UIControl+BKFixMultiClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8508685F4B3DFD4E93B29948FA0ACF83 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		903D947497AF554060234201BDA2B741 /* BKMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9E0C8292F5C5E77584AD429E112CE3 /* BKMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6368E1F00AC7D37D51A428A8295147 /* NSMutableDictionary+BKSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B92EEB37EE87856144611C98292CED99 /* NSMutableDictionary+BKSafeCategory.m */; };
+		8FB0DD663AEFF323AB42176FB6873650 /* NSObject+BKCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAEE6DBDF0043052BA1D0F64941A924 /* NSObject+BKCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A617D7571344AD1BA4EDC48FF7402B /* NSObject+BKCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B30B4B2513A555AD21A4C69CD2C4D /* NSObject+BKCatchException.m */; };
 		929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		936F320A8EA023166BA56420B4258720 /* BKMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD48191D8E5DCBDE8A18EBF06FC02C9B /* BKMediator.m */; };
-		9CED3CF5E39F69706C8D07E5F7AF347F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 83856747B2494FAD07CDF9BF525764A7 /* ReplaceMe.m */; };
+		9ECADFC887E8114545FA44D3B5DB708A /* BeesKingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D59FA91489D2AE8EE5EA4E0CC529EB4 /* BeesKingLib-dummy.m */; };
 		A94808B213D1D8D781AD48224C0300B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
 		AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		BC82D29E54B4BE533EB8B619C296D136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
+		ACBE2978CDF6F59DB63A6A6CC87D30E4 /* BKMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A699C251E1274064A4C4CB228F1A7BE0 /* BKMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11FEA820BB64753CC414462FE5AA763 /* BeesKingLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9D615C4E3DCB1107717134CD92595C /* BeesKingLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A2E56E487FDE9615BC304597AD5722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */; };
+		B69C391FE90D89053FCD484111ADCE6A /* UIControl+BKFixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E876FA2CEC3A7F57D19D4267BD9BD /* UIControl+BKFixMultiClick.m */; };
 		BE1A50E1C2AAD0BA5A6CCA2AB34B32F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */; };
 		BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C6DD0BEE45ECF1C7EAC1B0323D6B9112 /* UIControl+BKFixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = CA49D7A0F8FCF1932406F0F465987BA1 /* UIControl+BKFixMultiClick.m */; };
+		C2D6DD9509F6F3F2F331D90D15A86F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
+		C51F1B4CF6BA3B18F2FEFBAD9B1ED526 /* UIControl+BKFixMultiClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 4387E826515D87DCD8520E8EA77832C1 /* UIControl+BKFixMultiClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C746E8316C77C7FEF6B2382FD6C83EE7 /* NSMutableDictionary+BKSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFE419808C7887EEBB2365E211AC387 /* NSMutableDictionary+BKSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C74A90F5662744C5F3A00F1C7BF5123E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */; };
+		C7C940F07ADC1B97728B57127B5E2112 /* NSDictionary+BKSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29158BA6CB426A04E17DAF09B987CC /* NSDictionary+BKSafeCategory.m */; };
 		D4AD6B2A1D9F633251F4CCE647A82052 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D84D626FC6A666332367C6375B8D6D1E /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		D9CB303B5A98F173664408008174E3C5 /* Pods-BeesKingLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B46389AAC0634D017E20DB17729A9 /* Pods-BeesKingLib_Example-dummy.m */; };
-		E611E2E0A7AB437A47F6ABF05E26AABF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1312EE1BA0CE228226D754FC126B0BF3 /* ReplaceMe.m */; };
+		DFAD854264904A1D33DD60C640D35581 /* BKMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE324AEB25C3638DECE55FB65C449A5D /* BKMediator.m */; };
+		E36C50CAC9DB5BA90D932861621FE7F8 /* NSArray+BKSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0B6981A4FDC46453BFAD795B02EC7F /* NSArray+BKSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3B1A094612A783CBF2FCC936DCC1D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */; };
 		F7D29D32A183783FB4C32DBFE0AA3F07 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F8669D9F2D8DA2F91064F739AB45CC21 /* BeesKingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D316AF19AF2C0495B54DE100F7C0A086 /* BeesKingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,83 +88,95 @@
 		07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0D6B46389AAC0634D017E20DB17729A9 /* Pods-BeesKingLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeesKingLib_Example-dummy.m"; sourceTree = "<group>"; };
-		11001C8049F61C25E09F90CEACC683D3 /* BeesKingLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BeesKingLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0EE22EB822BEEB1AA7652CFACEED41C3 /* NSObject+BKMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKMethodSwizzling.h"; sourceTree = "<group>"; };
 		12BC18F3943C3494957ECD07124E9994 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1312EE1BA0CE228226D754FC126B0BF3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKNetWork/ReplaceMe.m; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1F1AF881DD73D09EE8588E20EDD77E49 /* Pods-BeesKingLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeesKingLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		30D1FBF0AD7BEBA0787CCD2F71DAD6D7 /* BeesKingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeesKingLib-dummy.m"; sourceTree = "<group>"; };
+		2CFE419808C7887EEBB2365E211AC387 /* NSMutableDictionary+BKSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BKSafeCategory.h"; sourceTree = "<group>"; };
+		39A4E8C280C30BA9DEE2F40889B50AAA /* NSMutableArray+BKSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+BKSafeCategory.h"; path = "BeesKingLib/BKCategorys/BKSafeCategory/NSMutableArray+BKSafeCategory.h"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3D787CAECF07D49E7CA797FEA2849789 /* Pods_BeesKingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeesKingLib_Tests.framework; path = "Pods-BeesKingLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D787CAECF07D49E7CA797FEA2849789 /* Pods_BeesKingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeesKingLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		4227A5156916D6C0BA2A9A555F68B52F /* Pods-BeesKingLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		4387E826515D87DCD8520E8EA77832C1 /* UIControl+BKFixMultiClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BKFixMultiClick.h"; path = "BeesKingLib/BKCategorys/BKCategory/UIControl+BKFixMultiClick.h"; sourceTree = "<group>"; };
+		46B605B089C290ADF270E28481DC22D5 /* NSArray+BKSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BKSafeCategory.m"; sourceTree = "<group>"; };
 		4A2F85764AC1D8145B52098BDDFDCBD1 /* Pods-BeesKingLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeesKingLib_Example.modulemap"; sourceTree = "<group>"; };
+		4D9D615C4E3DCB1107717134CD92595C /* BeesKingLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeesKingLib.h; path = BeesKingLib/BeesKingLib.h; sourceTree = "<group>"; };
 		4EC88C87949A681A6739C32173627BFC /* Pods-BeesKingLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeesKingLib_Tests.modulemap"; sourceTree = "<group>"; };
-		4F9E0C8292F5C5E77584AD429E112CE3 /* BKMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMediator.h; path = BeesKingLib/BKMediator/BKMediator.h; sourceTree = "<group>"; };
-		550B63FE7E588804238BCBFD8DF9485A /* BeesKingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeesKingLib.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F39AC40E92DE54FE24335ED56320DF /* BeesKingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-umbrella.h"; sourceTree = "<group>"; };
+		5566BB31249718FC8587FA7460D665AD /* NSDictionary+BKSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BKSafeCategory.h"; sourceTree = "<group>"; };
+		56AE0CD3D31A5CCF13C931FF65FE35D0 /* NSObject+BKMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKMethodSwizzling.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A461C34DD1074DBE5F1D78EFD7B028 /* Pods-BeesKingLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61FFDF8BA75F883C59D3515146CE1F6D /* BeesKingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-prefix.pch"; sourceTree = "<group>"; };
+		6C0B6981A4FDC46453BFAD795B02EC7F /* NSArray+BKSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKSafeCategory.h"; sourceTree = "<group>"; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		75B7F4F959D11C79A5F538803B28702A /* Pods-BeesKingLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeesKingLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		83856747B2494FAD07CDF9BF525764A7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKCommon/ReplaceMe.m; sourceTree = "<group>"; };
-		86950CAB657F4E4B0052C77471362857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		86C8FE6ED97AF06FE70D9C8834245B04 /* BeesKingLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeesKingLib.h; path = BeesKingLib/BeesKingLib.h; sourceTree = "<group>"; };
+		85211F87FC28A4D50A287E414E92733C /* BeesKingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeesKingLib.modulemap; sourceTree = "<group>"; };
+		87EBC82C7CC81D9AD7A38FA911357878 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		880E551A5AFA32E9F7D0B8D002093824 /* Pods-BeesKingLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		89E87E355E7AFD9541EA1E83555C22E1 /* BeesKingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeesKingLib.framework; path = BeesKingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E87E355E7AFD9541EA1E83555C22E1 /* BeesKingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeesKingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D59FA91489D2AE8EE5EA4E0CC529EB4 /* BeesKingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeesKingLib-dummy.m"; sourceTree = "<group>"; };
 		8DF569DF039CB8BA7772FBE567ADDAF3 /* Pods-BeesKingLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E8A0BCF835474CB4996E4F4D986AE32 /* UIControl+BKFixMultiClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BKFixMultiClick.h"; path = "BeesKingLib/BKCategory/UIControl+BKFixMultiClick.h"; sourceTree = "<group>"; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		95A98648C93681BCB36CD41A1E7D2681 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKNetWork/ReplaceMe.m; sourceTree = "<group>"; };
+		966FB339BB6B64A884D1756E4B635D62 /* BeesKingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeesKingLib.xcconfig; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A29158BA6CB426A04E17DAF09B987CC /* NSDictionary+BKSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BKSafeCategory.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A5EF39F886DF8A835B681090F54ADCEA /* Pods_BeesKingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeesKingLib_Example.framework; path = "Pods-BeesKingLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7A8CAF0B3FEBA8D3DF3446EE455F1E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A57B30B4B2513A555AD21A4C69CD2C4D /* NSObject+BKCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKCatchException.m"; path = "BeesKingLib/BKCategorys/BKCategory/NSObject+BKCatchException.m"; sourceTree = "<group>"; };
+		A5EF39F886DF8A835B681090F54ADCEA /* Pods_BeesKingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeesKingLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A699C251E1274064A4C4CB228F1A7BE0 /* BKMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMediator.h; path = BeesKingLib/BKMediator/BKMediator.h; sourceTree = "<group>"; };
+		A8D339C0EEB4AC58C8369295584E862E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9905A250E308F8BF2AD2801EEEE032D /* BeesKingLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BeesKingLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AB38A6F91DA352EB457C1DA2E7616765 /* Pods-BeesKingLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeesKingLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		ACE56472ECE61F6E512B9F647C49B999 /* Pods-BeesKingLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeesKingLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		ADE9A35FD2CA37E880BFEE09A06CF657 /* BeesKingLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeesKingLib-Info.plist"; sourceTree = "<group>"; };
+		B11E876FA2CEC3A7F57D19D4267BD9BD /* UIControl+BKFixMultiClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+BKFixMultiClick.m"; path = "BeesKingLib/BKCategorys/BKCategory/UIControl+BKFixMultiClick.m"; sourceTree = "<group>"; };
 		B7832B55184527755EFDD4A7C1811DCA /* Pods-BeesKingLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeesKingLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0942E35B8DDD85D774E7D9453990B56 /* BeesKingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-prefix.pch"; sourceTree = "<group>"; };
+		B92EEB37EE87856144611C98292CED99 /* NSMutableDictionary+BKSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BKSafeCategory.m"; sourceTree = "<group>"; };
+		BE324AEB25C3638DECE55FB65C449A5D /* BKMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKMediator.m; path = BeesKingLib/BKMediator/BKMediator.m; sourceTree = "<group>"; };
+		BEF0F3FA16BD42794027B42A7F6533B8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BeesKingLib/BKCommon/ReplaceMe.m; sourceTree = "<group>"; };
 		C10054DF3831ED1287F8BFC5BC8413FE /* Pods-BeesKingLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeesKingLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C459BE9B824A41D2B2FB70DC0BC6F0F6 /* Pods-BeesKingLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Example-Info.plist"; sourceTree = "<group>"; };
-		CA49D7A0F8FCF1932406F0F465987BA1 /* UIControl+BKFixMultiClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+BKFixMultiClick.m"; path = "BeesKingLib/BKCategory/UIControl+BKFixMultiClick.m"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D316AF19AF2C0495B54DE100F7C0A086 /* BeesKingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeesKingLib-umbrella.h"; sourceTree = "<group>"; };
 		D400E14C2234087754D4B40C4B25A092 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D7733836E96DB7A0A88B6A688C87F8C6 /* Pods-BeesKingLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeesKingLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD48191D8E5DCBDE8A18EBF06FC02C9B /* BKMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKMediator.m; path = BeesKingLib/BKMediator/BKMediator.m; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		EA83832B859BBE1BD8174FD25824FFDF /* BeesKingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeesKingLib.modulemap; sourceTree = "<group>"; };
 		EEA60102F88253F857A103B7992C3792 /* Pods-BeesKingLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeesKingLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F50E48D20FA017D1E3987D614A20A3E2 /* BeesKingLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeesKingLib-Info.plist"; sourceTree = "<group>"; };
 		F55CE93C078F6D19C39C5CAC0B824F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FB42483FF0DD4E362F1E9A0429FBAD33 /* Pods-BeesKingLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeesKingLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBAEE6DBDF0043052BA1D0F64941A924 /* NSObject+BKCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKCatchException.h"; path = "BeesKingLib/BKCategorys/BKCategory/NSObject+BKCatchException.h"; sourceTree = "<group>"; };
+		FCEE3E464173FD1CC42A22765A7A18CB /* NSMutableArray+BKSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BKSafeCategory.m"; path = "BeesKingLib/BKCategorys/BKSafeCategory/NSMutableArray+BKSafeCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A6DB845112B7FF00BF548720A585C2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC82D29E54B4BE533EB8B619C296D136 /* Foundation.framework in Frameworks */,
-				46D76FEE52B881E312949CCDFD65C831 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		64FFCD64B87898C9B5C9154EC6FE2236 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A94808B213D1D8D781AD48224C0300B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987168C506A52E3834D0F604A1CCDF78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6DD9509F6F3F2F331D90D15A86F2A /* Foundation.framework in Frameworks */,
+				B4A2E56E487FDE9615BC304597AD5722 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,16 +202,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA2A405209CC898C3569A11377EA9D6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				11001C8049F61C25E09F90CEACC683D3 /* BeesKingLib.podspec */,
-				86950CAB657F4E4B0052C77471362857 /* LICENSE */,
-				A7A8CAF0B3FEBA8D3DF3446EE455F1E2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1D668FE101AB8C2CDE6CD805E9E30801 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,21 +211,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1DDE7460141A0730826661ADC4A081BA /* BKNetWork */ = {
+		25166AAF359C4618C8192900590012D5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1312EE1BA0CE228226D754FC126B0BF3 /* ReplaceMe.m */,
+				A9905A250E308F8BF2AD2801EEEE032D /* BeesKingLib.podspec */,
+				87EBC82C7CC81D9AD7A38FA911357878 /* LICENSE */,
+				A8D339C0EEB4AC58C8369295584E862E /* README.md */,
 			);
-			name = BKNetWork;
-			sourceTree = "<group>";
-		};
-		2DC20BD96D53E76230B01E2E6D43B0DB /* BKMediator */ = {
-			isa = PBXGroup;
-			children = (
-				4F9E0C8292F5C5E77584AD429E112CE3 /* BKMediator.h */,
-				DD48191D8E5DCBDE8A18EBF06FC02C9B /* BKMediator.m */,
-			);
-			name = BKMediator;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		40EAC1E29147552CE1123B2EE7807568 /* Pods-BeesKingLib_Example */ = {
@@ -245,21 +252,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		476C8642C83AC19923BA21ECBC18240C /* BeesKingLib */ = {
-			isa = PBXGroup;
-			children = (
-				86C8FE6ED97AF06FE70D9C8834245B04 /* BeesKingLib.h */,
-				AD41A3A11FE2207A5B463AD76A3E1ACE /* BKCategory */,
-				DE81B2C86F2A5DEA37DBE9D3188D1603 /* BKCommon */,
-				2DC20BD96D53E76230B01E2E6D43B0DB /* BKMediator */,
-				1DDE7460141A0730826661ADC4A081BA /* BKNetWork */,
-				0EA2A405209CC898C3569A11377EA9D6 /* Pod */,
-				D65A2E3E0B08741C18B0B69E96724779 /* Support Files */,
-			);
-			name = BeesKingLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		5ECABDAB12622AD9A8130E5C248A1881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,10 +263,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		68CBF0C2D27880C24235E32A6688CD11 /* BKMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A699C251E1274064A4C4CB228F1A7BE0 /* BKMediator.h */,
+				BE324AEB25C3638DECE55FB65C449A5D /* BKMediator.m */,
+			);
+			name = BKMediator;
+			sourceTree = "<group>";
+		};
 		6D2441ECE1AD59B9CAF7EA46224AD034 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				476C8642C83AC19923BA21ECBC18240C /* BeesKingLib */,
+				B265A2AEC28AB4DCCCCF5AA0CAF11B5A /* BeesKingLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -287,6 +288,14 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		89668B14602FEE0D7B0D6D70232697F8 /* BKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BEF0F3FA16BD42794027B42A7F6533B8 /* ReplaceMe.m */,
+			);
+			name = BKCommon;
+			sourceTree = "<group>";
+		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,7 +303,6 @@
 				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
 				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -319,13 +327,52 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		AD41A3A11FE2207A5B463AD76A3E1ACE /* BKCategory */ = {
+		A5D0130CC5EEA87F911FD2B4496B11E5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E8A0BCF835474CB4996E4F4D986AE32 /* UIControl+BKFixMultiClick.h */,
-				CA49D7A0F8FCF1932406F0F465987BA1 /* UIControl+BKFixMultiClick.m */,
+				85211F87FC28A4D50A287E414E92733C /* BeesKingLib.modulemap */,
+				966FB339BB6B64A884D1756E4B635D62 /* BeesKingLib.xcconfig */,
+				8D59FA91489D2AE8EE5EA4E0CC529EB4 /* BeesKingLib-dummy.m */,
+				ADE9A35FD2CA37E880BFEE09A06CF657 /* BeesKingLib-Info.plist */,
+				61FFDF8BA75F883C59D3515146CE1F6D /* BeesKingLib-prefix.pch */,
+				52F39AC40E92DE54FE24335ED56320DF /* BeesKingLib-umbrella.h */,
 			);
-			name = BKCategory;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BeesKingLib";
+			sourceTree = "<group>";
+		};
+		B04676E13F5685DC970114FADE655DFB /* BKCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				FCE780ACC430A83DD5AA5CDC9F8D79DD /* BKCategory */,
+				B78498E48771E540B0AED5A2D7D3CA49 /* BKSafeCategory */,
+			);
+			name = BKCategorys;
+			sourceTree = "<group>";
+		};
+		B265A2AEC28AB4DCCCCF5AA0CAF11B5A /* BeesKingLib */ = {
+			isa = PBXGroup;
+			children = (
+				4D9D615C4E3DCB1107717134CD92595C /* BeesKingLib.h */,
+				B04676E13F5685DC970114FADE655DFB /* BKCategorys */,
+				89668B14602FEE0D7B0D6D70232697F8 /* BKCommon */,
+				68CBF0C2D27880C24235E32A6688CD11 /* BKMediator */,
+				EFC8AF4DEB540A4DD0F48C1348A9062C /* BKNetWork */,
+				25166AAF359C4618C8192900590012D5 /* Pod */,
+				A5D0130CC5EEA87F911FD2B4496B11E5 /* Support Files */,
+			);
+			name = BeesKingLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B78498E48771E540B0AED5A2D7D3CA49 /* BKSafeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				39A4E8C280C30BA9DEE2F40889B50AAA /* NSMutableArray+BKSafeCategory.h */,
+				FCEE3E464173FD1CC42A22765A7A18CB /* NSMutableArray+BKSafeCategory.m */,
+				E5DA4E58B2824E519C0DCE4C6024E8F9 /* ARCSafe */,
+			);
+			name = BKSafeCategory;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -365,26 +412,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		D65A2E3E0B08741C18B0B69E96724779 /* Support Files */ = {
+		E5DA4E58B2824E519C0DCE4C6024E8F9 /* ARCSafe */ = {
 			isa = PBXGroup;
 			children = (
-				EA83832B859BBE1BD8174FD25824FFDF /* BeesKingLib.modulemap */,
-				550B63FE7E588804238BCBFD8DF9485A /* BeesKingLib.xcconfig */,
-				30D1FBF0AD7BEBA0787CCD2F71DAD6D7 /* BeesKingLib-dummy.m */,
-				F50E48D20FA017D1E3987D614A20A3E2 /* BeesKingLib-Info.plist */,
-				C0942E35B8DDD85D774E7D9453990B56 /* BeesKingLib-prefix.pch */,
-				D316AF19AF2C0495B54DE100F7C0A086 /* BeesKingLib-umbrella.h */,
+				6C0B6981A4FDC46453BFAD795B02EC7F /* NSArray+BKSafeCategory.h */,
+				46B605B089C290ADF270E28481DC22D5 /* NSArray+BKSafeCategory.m */,
+				5566BB31249718FC8587FA7460D665AD /* NSDictionary+BKSafeCategory.h */,
+				9A29158BA6CB426A04E17DAF09B987CC /* NSDictionary+BKSafeCategory.m */,
+				2CFE419808C7887EEBB2365E211AC387 /* NSMutableDictionary+BKSafeCategory.h */,
+				B92EEB37EE87856144611C98292CED99 /* NSMutableDictionary+BKSafeCategory.m */,
+				0EE22EB822BEEB1AA7652CFACEED41C3 /* NSObject+BKMethodSwizzling.h */,
+				56AE0CD3D31A5CCF13C931FF65FE35D0 /* NSObject+BKMethodSwizzling.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BeesKingLib";
-			sourceTree = "<group>";
-		};
-		DE81B2C86F2A5DEA37DBE9D3188D1603 /* BKCommon */ = {
-			isa = PBXGroup;
-			children = (
-				83856747B2494FAD07CDF9BF525764A7 /* ReplaceMe.m */,
-			);
-			name = BKCommon;
+			name = ARCSafe;
+			path = BeesKingLib/BKCategorys/BKSafeCategory/ARCSafe;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -393,6 +434,14 @@
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFC8AF4DEB540A4DD0F48C1348A9062C /* BKNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				95A98648C93681BCB36CD41A1E7D2681 /* ReplaceMe.m */,
+			);
+			name = BKNetWork;
 			sourceTree = "<group>";
 		};
 		F47A836774CE51BB8AE4F2A0BEB220CD /* iOS */ = {
@@ -404,6 +453,17 @@
 				07DCAFBBF8F71A0EFE53AA662B319534 /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCE780ACC430A83DD5AA5CDC9F8D79DD /* BKCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEE6DBDF0043052BA1D0F64941A924 /* NSObject+BKCatchException.h */,
+				A57B30B4B2513A555AD21A4C69CD2C4D /* NSObject+BKCatchException.m */,
+				4387E826515D87DCD8520E8EA77832C1 /* UIControl+BKFixMultiClick.h */,
+				B11E876FA2CEC3A7F57D19D4267BD9BD /* UIControl+BKFixMultiClick.m */,
+			);
+			name = BKCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +485,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9420F847C94C7B182E2FF492793E1E95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6D0FBF2BFFE80606197FCFF9DDF84 /* BeesKingLib-umbrella.h in Headers */,
+				B11FEA820BB64753CC414462FE5AA763 /* BeesKingLib.h in Headers */,
+				ACBE2978CDF6F59DB63A6A6CC87D30E4 /* BKMediator.h in Headers */,
+				E36C50CAC9DB5BA90D932861621FE7F8 /* NSArray+BKSafeCategory.h in Headers */,
+				69BF9C4602E058E4063B62D36126C4F2 /* NSDictionary+BKSafeCategory.h in Headers */,
+				6A50D4A68C308B93CF47C7CB10E6EFDD /* NSMutableArray+BKSafeCategory.h in Headers */,
+				C746E8316C77C7FEF6B2382FD6C83EE7 /* NSMutableDictionary+BKSafeCategory.h in Headers */,
+				8FB0DD663AEFF323AB42176FB6873650 /* NSObject+BKCatchException.h in Headers */,
+				140BB4FFA44C3F0122124444C6BFDEA0 /* NSObject+BKMethodSwizzling.h in Headers */,
+				C51F1B4CF6BA3B18F2FEFBAD9B1ED526 /* UIControl+BKFixMultiClick.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B693056005BB192A579B6662D997910F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,17 +514,6 @@
 				BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */,
 				6C521CCD8750EEEEA73708F8C1D89916 /* UIImage+Diff.h in Headers */,
 				F7D29D32A183783FB4C32DBFE0AA3F07 /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBCD81F7A8CBF2BE293CD723E2431F7B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8669D9F2D8DA2F91064F739AB45CC21 /* BeesKingLib-umbrella.h in Headers */,
-				0E17954D4820395188782EC776751FFC /* BeesKingLib.h in Headers */,
-				903D947497AF554060234201BDA2B741 /* BKMediator.h in Headers */,
-				83876584C3DBFBD4151BFAD01D7C79FC /* UIControl+BKFixMultiClick.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,12 +542,12 @@
 		};
 		5CCF9AB89AC32886153E75B473C0C19A /* BeesKingLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0B39D5C073A29D501456BBBE9C829D7 /* Build configuration list for PBXNativeTarget "BeesKingLib" */;
+			buildConfigurationList = F419F5598DDB81EEAFE9FE35715A54B0 /* Build configuration list for PBXNativeTarget "BeesKingLib" */;
 			buildPhases = (
-				EBCD81F7A8CBF2BE293CD723E2431F7B /* Headers */,
-				DACAFA981943F79A63F70E1E1D2C1B65 /* Sources */,
-				5A6DB845112B7FF00BF548720A585C2E /* Frameworks */,
-				6B28E4E523A76C1159B1B5CF982479AF /* Resources */,
+				9420F847C94C7B182E2FF492793E1E95 /* Headers */,
+				03C80463DCCD3CED791E193B9169B7F6 /* Sources */,
+				987168C506A52E3834D0F604A1CCDF78 /* Frameworks */,
+				1B456C99F06D9006C821C64CB5E0184F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -559,14 +625,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69E10BDB38F6C3402EF382B74F3EDFBE /* Resources */ = {
+		1B456C99F06D9006C821C64CB5E0184F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B28E4E523A76C1159B1B5CF982479AF /* Resources */ = {
+		69E10BDB38F6C3402EF382B74F3EDFBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,6 +656,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03C80463DCCD3CED791E193B9169B7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECADFC887E8114545FA44D3B5DB708A /* BeesKingLib-dummy.m in Sources */,
+				DFAD854264904A1D33DD60C640D35581 /* BKMediator.m in Sources */,
+				2F041071F712E1E7A8883A97F57869C5 /* NSArray+BKSafeCategory.m in Sources */,
+				C7C940F07ADC1B97728B57127B5E2112 /* NSDictionary+BKSafeCategory.m in Sources */,
+				69B65BC192A23BB661997224238629A0 /* NSMutableArray+BKSafeCategory.m in Sources */,
+				8C6368E1F00AC7D37D51A428A8295147 /* NSMutableDictionary+BKSafeCategory.m in Sources */,
+				91A617D7571344AD1BA4EDC48FF7402B /* NSObject+BKCatchException.m in Sources */,
+				1F0CEE15AD5B15D23F9D640FACD6ABE6 /* NSObject+BKMethodSwizzling.m in Sources */,
+				39F827E4DA24BD8E79885E1A95487F2D /* ReplaceMe.m in Sources */,
+				4D10F218A04E9C42734BED6BB01F2DBB /* ReplaceMe.m in Sources */,
+				B69C391FE90D89053FCD484111ADCE6A /* UIControl+BKFixMultiClick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9859017687FF294AC70F67F81FCE3259 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,18 +695,6 @@
 				13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */,
 				2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */,
 				4CF8A6092DC4EEF90367C6C6440DEE86 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DACAFA981943F79A63F70E1E1D2C1B65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C2ACFFA89806770CC8E93907AD70FD7 /* BeesKingLib-dummy.m in Sources */,
-				936F320A8EA023166BA56420B4258720 /* BKMediator.m in Sources */,
-				9CED3CF5E39F69706C8D07E5F7AF347F /* ReplaceMe.m in Sources */,
-				E611E2E0A7AB437A47F6ABF05E26AABF /* ReplaceMe.m in Sources */,
-				C6DD0BEE45ECF1C7EAC1B0323D6B9112 /* UIControl+BKFixMultiClick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +730,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		31B828BCD787435292E33F6A157C227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966FB339BB6B64A884D1756E4B635D62 /* BeesKingLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeesKingLib/BeesKingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeesKingLib/BeesKingLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BeesKingLib/BeesKingLib.modulemap";
+				PRODUCT_MODULE_NAME = BeesKingLib;
+				PRODUCT_NAME = BeesKingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3A8398F274E5A52A4A3E4DEEA900564A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 880E551A5AFA32E9F7D0B8D002093824 /* Pods-BeesKingLib_Tests.debug.xcconfig */;
@@ -744,42 +848,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		4FB6B65279ED63B70721122EC86CE9CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550B63FE7E588804238BCBFD8DF9485A /* BeesKingLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BeesKingLib/BeesKingLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BeesKingLib/BeesKingLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BeesKingLib/BeesKingLib.modulemap";
-				PRODUCT_MODULE_NAME = BeesKingLib;
-				PRODUCT_NAME = BeesKingLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -847,37 +918,6 @@
 			};
 			name = Debug;
 		};
-		83681A90073A7F710856BBB5265CBFB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550B63FE7E588804238BCBFD8DF9485A /* BeesKingLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BeesKingLib/BeesKingLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BeesKingLib/BeesKingLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BeesKingLib/BeesKingLib.modulemap";
-				PRODUCT_MODULE_NAME = BeesKingLib;
-				PRODUCT_NAME = BeesKingLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		936069CBADF2BE2BEB79CBEE59ECA75D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7832B55184527755EFDD4A7C1811DCA /* Pods-BeesKingLib_Tests.release.xcconfig */;
@@ -911,6 +951,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9A29969259C55238A8262DAD97698C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966FB339BB6B64A884D1756E4B635D62 /* BeesKingLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeesKingLib/BeesKingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeesKingLib/BeesKingLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BeesKingLib/BeesKingLib.modulemap";
+				PRODUCT_MODULE_NAME = BeesKingLib;
+				PRODUCT_NAME = BeesKingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AD17690F4E3C05962484D2F4E1A72109 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1072,20 +1143,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B39D5C073A29D501456BBBE9C829D7 /* Build configuration list for PBXNativeTarget "BeesKingLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83681A90073A7F710856BBB5265CBFB2 /* Debug */,
-				4FB6B65279ED63B70721122EC86CE9CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B0CEE91ED42C0D8DDF2172F43E8E2E0D /* Build configuration list for PBXNativeTarget "Pods-BeesKingLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A8398F274E5A52A4A3E4DEEA900564A /* Debug */,
 				936069CBADF2BE2BEB79CBEE59ECA75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F419F5598DDB81EEAFE9FE35715A54B0 /* Build configuration list for PBXNativeTarget "BeesKingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A29969259C55238A8262DAD97698C8A /* Debug */,
+				31B828BCD787435292E33F6A157C227D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

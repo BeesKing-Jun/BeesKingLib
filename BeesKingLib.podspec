@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.9'
+  s.version          =  '0.0.10'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,21 @@ TODO: Add long description of the pod here.
     ss.source_files = 'BeesKingLib/BKCommon/**/*.{h,m}'
     ss.frameworks = 'UIKit','Foundation'
   end
-  s.subspec 'BKCategory' do |ss|
+  s.subspec 'BKCategorys' do |ss|
     ss.ios.deployment_target = '8.0'
-    ss.source_files = 'BeesKingLib/BKCategory/*.{h,m}'
+    
     ss.frameworks = 'UIKit','Foundation'
+    ss.subspec 'BKCategory' do |sss|
+      sss.ios.deployment_target = '8.0'
+      sss.source_files = 'BeesKingLib/BKCategorys/BKCategory/*.{h,m}'
+    end
+    
+    ss.subspec 'BKSafeCategory' do |sss|
+      sss.ios.deployment_target = '8.0'
+      sss.requires_arc = false
+      sss.requires_arc = 'BeesKingLib/BKCategorys/BKSafeCategory/ARCSafe/*.{h,m}'
+      sss.source_files = ['BeesKingLib/BKCategorys/BKSafeCategory/ARCSafe/*.{h,m}','BeesKingLib/BKCategorys/BKSafeCategory/*.{h,m}']
+    end
   end
   
   s.subspec 'BKNetWork' do |ss|
