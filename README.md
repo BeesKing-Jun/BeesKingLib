@@ -37,4 +37,4 @@ pod 'BeesKingLib'
     UIControl+BKFixMultiClick:用于UIControl及子类的防止重复点击
     
     2.BKMediator
-    中间组件，目前是用的CTMedator代码
+    中间组件，目前是用的CTMediator代码
