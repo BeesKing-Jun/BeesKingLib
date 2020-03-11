@@ -27,7 +27,6 @@
  *
  *  @return 堆栈主要崩溃精简化的信息
  */
-
 + (NSString *)BKGetMainCallStackSymbolMessageWithCallStackSymbols:(NSArray<NSString *> *)callStackSymbols {
     
     //mainCallStackSymbolMsg的格式为   +[类名 方法名]  或者 -[类名 方法名]

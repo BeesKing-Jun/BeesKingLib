@@ -22,8 +22,19 @@ pod 'BeesKingLib'
 
 ## Author
 
-s18782934812, 836152122@qq.com
+    WJ, 836152122@qq.com
 
 ## License
 
-BeesKingLib is available under the MIT license. See the LICENSE file for more info.
+    BeesKingLib is available under the MIT license. See the LICENSE file for more info.
+
+## Remark
+
+### 
+    1.BKCategory
+    主要是常用的分类， BKSafeCategory用于字典、数组安全处理，其中NSMutableArray 编译为MRC模式。
+    NSObject+BKCatchException:用于异常捕获，可以在有exception的地方调用里面的方法
+    UIControl+BKFixMultiClick:用于UIControl及子类的防止重复点击
+    
+    2.BKMediator
+    中间组件，目前是用的CTMedator代码
