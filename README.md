@@ -23,6 +23,7 @@ pod 'BeesKingLib'
 ## Author
 
     WJ, 836152122@qq.com
+    TY, ktonyreet@gmail.com
 
 ## License
 
@@ -39,3 +40,6 @@ pod 'BeesKingLib'
     
     2.BKMediator
     中间组件，目前是用的CTMediator代码
+    
+    3.BKLargeImage
+    大图处理，避免加载大图的时候老机型崩溃的问题
