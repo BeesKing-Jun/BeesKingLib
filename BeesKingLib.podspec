@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.12'
+  s.version          =  '0.0.14'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.
@@ -61,6 +61,13 @@ TODO: Add long description of the pod here.
     ss.ios.source_files = 'BeesKingLib/BKMediator/**/*.{h,m,mm}'
     ss.ios.frameworks = 'UIKit','Foundation'
   end
+
+  s.subspec 'BKLargeImage' do |ss|
+	ss.ios.deployment_target = '8.0'
+	ss.ios.source_files = 'BeesKingLib/BKLargeImage/**/*.{h,m,mm}'
+	ss.ios.frameworks = 'UIKit','Foundation','QuartzCore'
+  end
+
   s.source_files = 'BeesKingLib/BeesKingLib.h'
   s.public_header_files = 'BeesKingLib/BeesKingLib.h'
   s.dependency 'AFNetworking'
