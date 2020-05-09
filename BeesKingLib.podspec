@@ -63,6 +63,8 @@ TODO: Add long description of the pod here.
   end
   s.source_files = 'BeesKingLib/BeesKingLib.h'
   s.public_header_files = 'BeesKingLib/BeesKingLib.h'
+  s.dependency 'AFNetworking'
+  
 end
 
 
