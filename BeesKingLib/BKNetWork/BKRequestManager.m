@@ -88,13 +88,13 @@
 
 // POST请求
 - (void)BKPostWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
-    NSString * urlString = [self getUrlStringWith:request];
+    NSString * URLString = [self getURLStringWith:request];
     self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
 
-    NSLog(@"BKBaseRequest--%@\n Params--%@",urlString,request.params);
+    NSLog(@"BKBaseRequest--%@\n Params--%@",URLString,request.params);
     
-    request.requestTask = [self.httpSessionManager POST:urlString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", urlString, request.params, responseObject);
+    request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
@@ -107,10 +107,10 @@
 
 //对啊GET请求
 - (void)BKGETWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
-    NSString * urlString = [self getUrlStringWith:request];
-    NSLog(@"BKBaseRequest--%@\n Params--%@", urlString, request.params);
-    request.requestTask = [self.httpSessionManager GET:urlString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", urlString, request.params, responseObject);
+    NSString * URLString = [self getURLStringWith:request];
+    NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
+    request.requestTask = [self.httpSessionManager GET:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
@@ -126,11 +126,11 @@
 - (void)BKUploadImageWith:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock progress:(void(^)(NSProgress * uploadProgress))progressBlock{
     
     self.httpSessionManager.requestSerializer.timeoutInterval = 20.0;
-    NSString * urlString = [self getUrlStringWith:request];
+    NSString * URLString = [self getURLStringWith:request];
     
-    NSLog(@"BKBaseRequest--%@\n Params--%@", urlString, request.params);
+    NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     
-    request.requestTask = [self.httpSessionManager POST:urlString parameters:request.params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
 
         //绑定上传数据
         switch (request.uploadFileModel.sourceType) {
@@ -141,14 +141,14 @@
                 break;
             }
             case BKUpLoadSourceType_FilePath:{
-                NSURL *url = [NSURL fileURLWithPath:request.uploadFileModel.sourceFilePath];
+                NSURL *URL = [NSURL fileURLWithPath:request.uploadFileModel.sourceFilePath];
 
-                [formData appendPartWithFileURL:url name:request.uploadFileModel.imageName fileName:request.uploadFileModel.imageFileName mimeType:request.uploadFileModel.imageType error:nil];
+                [formData appendPartWithFileURL:URL name:request.uploadFileModel.imageName fileName:request.uploadFileModel.imageFileName mimeType:request.uploadFileModel.imageType error:nil];
                 break;
             }
             case BKUpLoadSourceType_URL:{
-                NSURL * url = [NSURL URLWithString:request.uploadFileModel.sourceURLString];
-                [formData appendPartWithFileURL:url name:request.uploadFileModel.imageName error:nil];
+                NSURL * URL = [NSURL URLWithString:request.uploadFileModel.sourceURLString];
+                [formData appendPartWithFileURL:URL name:request.uploadFileModel.imageName error:nil];
                 break;
             }
             default:
@@ -164,7 +164,7 @@
         });
 
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", urlString, request.params, request.dataParams, responseObject);
+        NSLog(@"BKBaseRequest--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", URLString, request.params, request.dataParams, responseObject);
         //上传成功回调
         if(successBlock){
             successBlock(responseObject);
@@ -179,21 +179,21 @@
 }
 
 //拼装请求地址
-- (NSString *)getUrlStringWith:(BKBaseRequest *)request
+- (NSString *)getURLStringWith:(BKBaseRequest *)request
 {
-    NSString * urlString = nil;
+    NSString * URLString = nil;
     if(![request.URLString hasPrefix:@"http"]){
-        urlString = [NSString stringWithFormat:@"%@%@", request.baseURL, request.URLString];
+        URLString = [NSString stringWithFormat:@"%@%@", request.baseURL, request.URLString];
     }else{
-        urlString = request.URLString;
+        URLString = request.URLString;
     }
     
-    return urlString;
+    return URLString;
 }
 
-- (void)cancelRequestWithUrlString:(NSString *)urlString{
+- (void)cancelRequestWithURLString:(NSString *)URLString{
     for (NSURLSessionTask * task in self.httpSessionManager.tasks) {
-        if([task.currentRequest.URL.absoluteString containsString:urlString]){
+        if([task.currentRequest.URL.absoluteString containsString:URLString]){
             [task cancel];
         }
     }

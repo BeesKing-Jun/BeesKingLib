@@ -32,7 +32,7 @@
 
 - (void)cancelRequest;
 
-- (void)cancelRequestWithUrlString:(NSString *)urlString;
+- (void)cancelRequestWithURLString:(NSString *)URLString;
 
 @end
 

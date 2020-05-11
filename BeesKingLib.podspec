@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BeesKingLib'
-  s.version          =  '0.0.14'
+  s.version          =  '0.0.16'
   s.summary          = 'A short description of BeesKingLib.'
 
 # This description is used to generate tags and improve search results.

@@ -42,18 +42,18 @@
 }
 
 //拼装请求地址
-- (NSString *)getUrlString
+- (NSString *)getURLString
 {
-    NSString * urlString = @"";
+    NSString * URLString = @"";
     if(![self.URLString hasPrefix:@"http"]){
-        urlString = [NSString stringWithFormat:@"%@%@",self.baseURL, self.URLString];
+        URLString = [NSString stringWithFormat:@"%@%@",self.baseURL, self.URLString];
     }else{
-        urlString = self.URLString;
+        URLString = self.URLString;
     }
     
     if(self.params){
         NSArray * sortedKeys = [BKRequestUtil sortedByDictionaryKeyWithDic:self.params];
-        __block NSString *paramStr = [NSString stringWithFormat:@"%@?", urlString];
+        __block NSString *paramStr = [NSString stringWithFormat:@"%@?", URLString];
         [sortedKeys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL * _Nonnull stop) {
             paramStr = [paramStr stringByAppendingString:[NSString stringWithFormat:@"%@=%@",key,self.params[key]]];
             if (idx != sortedKeys.count - 1) {
@@ -62,7 +62,7 @@
         }];
         return paramStr;
     }
-    return urlString;
+    return URLString;
 }
 
 @end
