@@ -88,7 +88,8 @@
 
 // POST请求
 - (void)BKPostWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
-    NSString * URLString = [self getURLStringWith:request];
+    NSString * URLString = [self getURLString:request];
+    [self setHeaderParams:request];
     self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
 
     NSLog(@"BKBaseRequest--%@\n Params--%@",URLString,request.params);
@@ -107,7 +108,8 @@
 
 //对啊GET请求
 - (void)BKGETWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
-    NSString * URLString = [self getURLStringWith:request];
+    NSString * URLString = [self getURLString:request];
+    [self setHeaderParams:request];
     NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     request.requestTask = [self.httpSessionManager GET:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
@@ -126,8 +128,8 @@
 - (void)BKUploadImageWith:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock progress:(void(^)(NSProgress * uploadProgress))progressBlock{
     
     self.httpSessionManager.requestSerializer.timeoutInterval = 20.0;
-    NSString * URLString = [self getURLStringWith:request];
-    
+    NSString * URLString = [self getURLString:request];
+    [self setHeaderParams:request];
     NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     
     request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
@@ -179,7 +181,7 @@
 }
 
 //拼装请求地址
-- (NSString *)getURLStringWith:(BKBaseRequest *)request
+- (NSString *)getURLString:(BKBaseRequest *)request
 {
     NSString * URLString = nil;
     if(![request.URLString hasPrefix:@"http"]){
@@ -189,6 +191,15 @@
     }
     
     return URLString;
+}
+
+- (void)setHeaderParams:(BKBaseRequest *)request
+{
+    if (request.headerParams) {
+        [request.headerParams.allKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            [self.httpSessionManager.requestSerializer setValue:[request.headerParams objectForKey:obj] forHTTPHeaderField:[NSString stringWithFormat:@"%@", obj]];
+        }];
+    }
 }
 
 - (void)cancelRequestWithURLString:(NSString *)URLString{

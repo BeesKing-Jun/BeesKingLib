@@ -39,6 +39,8 @@ typedef NS_ENUM(NSInteger, BKUpLoadSourceType) {
 
 /**请求参数字典*/
 @property (nonatomic, copy)     NSDictionary *params;
+/**设置在header里面的参数*/
+@property (nonatomic, copy)     NSDictionary *headerParams;
 /**请求地址，拼接在baseURL之后的部分*/
 @property (nonatomic, copy)     NSString *URLString;
 /**请求baseURL*/

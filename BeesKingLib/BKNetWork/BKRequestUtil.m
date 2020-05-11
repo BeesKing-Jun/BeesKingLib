@@ -37,27 +37,6 @@
     return res;
 }
 
-+ (BOOL)cacheDataWithObject:(id)object path:(NSString *)cachePath{
-    BOOL res = NO;
-    NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object];
-    res = [data writeToFile:cachePath atomically:YES];
-    
-    return res;
-}
-
-+ (id)cacheDataForPath:(NSString *)cachePath{
-    
-    NSData * data = [NSData dataWithContentsOfFile:cachePath];
-    id object = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-    return object;
-}
-
-+ (BOOL)deleteCacheWithPath:(NSString *)cachePath{
-    BOOL res = NO;
-    
-    res = [[NSFileManager defaultManager] removeItemAtPath:cachePath error:nil];
-    return res;
-}
 
 /**字典key排序，返回排序好的数组*/
 + (NSArray *)sortedByDictionaryKeyWithDic:(NSDictionary *)dic
@@ -70,18 +49,6 @@
     }];
     
     return allKeys;
-}
-
-+ (NSString*)encodeString:(NSString*)unencodedString{
-    
-    NSString *encodedString = (NSString *)
-    CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
-                                                              (CFStringRef)unencodedString,
-                                                              NULL,
-                                                              (CFStringRef)@"!*'();:@&=+$,/?%#[]",
-                                                              kCFStringEncodingUTF8));
-    
-    return encodedString;
 }
 
 @end

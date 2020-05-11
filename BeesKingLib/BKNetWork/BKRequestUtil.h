@@ -11,9 +11,6 @@
 @interface BKRequestUtil : NSObject
 
 + (BOOL)judgeFilePathExistWith:(NSString *)path;
-+ (BOOL)cacheDataWithObject:(id)object path:(NSString *)cachePath;
-+ (id)cacheDataForPath:(NSString *)cachePath;
-+ (BOOL)deleteCacheWithPath:(NSString *)cachePath;
 
 /**字典key排序，返回排序好的数组*/
 + (NSArray *)sortedByDictionaryKeyWithDic:(NSDictionary *)dic;
