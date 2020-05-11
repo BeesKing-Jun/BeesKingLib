@@ -106,7 +106,7 @@
     }];
 }
 
-//对啊GET请求
+//GET请求
 - (void)BKGETWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
     NSString * URLString = [self getURLString:request];
     [self setHeaderParams:request];
