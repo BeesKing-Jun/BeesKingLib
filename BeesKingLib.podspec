@@ -52,8 +52,9 @@ TODO: Add long description of the pod here.
   
   s.subspec 'BKNetWork' do |ss|
     ss.ios.deployment_target = '8.0'
-    ss.source_files = 'BeesKingLib/BKNetWork/**/*.{h,m,mm}'
+    ss.source_files = 'BeesKingLib/BKNetWork/*.{h,m,mm}'
     ss.frameworks = 'UIKit','Foundation'
+    ss.dependency 'AFNetworking'
   end
   
   s.subspec 'BKMediator' do |ss|
@@ -70,7 +71,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BeesKingLib/BeesKingLib.h'
   s.public_header_files = 'BeesKingLib/BeesKingLib.h'
-  s.dependency 'AFNetworking'
+  
   
 end
 

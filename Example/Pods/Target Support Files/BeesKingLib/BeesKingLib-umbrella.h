@@ -19,7 +19,13 @@
 #import "NSMutableDictionary+BKSafeCategory.h"
 #import "NSObject+BKMethodSwizzling.h"
 #import "NSMutableArray+BKSafeCategory.h"
+#import "BKLargeImageScrollView.h"
+#import "BKLargeImageTiledImageView.h"
+#import "BKLargeImageView.h"
 #import "BKMediator.h"
+#import "BKBaseRequest.h"
+#import "BKRequestManager.h"
+#import "BKRequestUtil.h"
 
 FOUNDATION_EXPORT double BeesKingLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char BeesKingLibVersionString[];
