@@ -8,6 +8,19 @@
 #import "BKRequestManager.h"
 #import "BKBaseRequest.h"
 
+//--打印相关
+#ifdef DEBUG
+
+#define BKLog(FORMAT, ...) {\
+NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];\
+[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];\
+NSString *str = [dateFormatter stringFromDate:[NSDate date]];\
+printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(FORMAT), ##__VA_ARGS__] UTF8String]);\
+}
+#else
+#define BKLog(...)
+#endif
+
 @implementation BKRequestManager
 
 + (instancetype)shareManager
@@ -92,16 +105,16 @@
     [self setHeaderParams:request];
     self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
 
-    NSLog(@"BKBaseRequest--%@\n Params--%@",URLString,request.params);
+    BKLog(@"BKBaseRequest--%@\n Params--%@",URLString,request.params);
     
     request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
+        BKLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //请求失败
-        NSLog(@"请求失败");
+        BKLog(@"请求失败");
         failedBlock(error);
     }];
 }
@@ -110,16 +123,16 @@
 - (void)BKGETWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
     NSString * URLString = [self getURLString:request];
     [self setHeaderParams:request];
-    NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
+    BKLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     request.requestTask = [self.httpSessionManager GET:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
+        BKLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //请求失败
-        NSLog(@"请求失败");
+        BKLog(@"请求失败");
         failedBlock(error);
     }];
 }
@@ -130,7 +143,7 @@
     self.httpSessionManager.requestSerializer.timeoutInterval = 20.0;
     NSString * URLString = [self getURLString:request];
     [self setHeaderParams:request];
-    NSLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
+    BKLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     
     request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
 
@@ -166,7 +179,7 @@
         });
 
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"BKBaseRequest--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", URLString, request.params, request.dataParams, responseObject);
+        BKLog(@"BKBaseRequest--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", URLString, request.params, request.dataParams, responseObject);
         //上传成功回调
         if(successBlock){
             successBlock(responseObject);
