@@ -43,3 +43,5 @@ pod 'BeesKingLib'
     
     3.BKLargeImage
     大图处理，避免加载大图的时候老机型崩溃的问题
+    4.BKNetWork
+    基于AFNetworking 二次封装的网络请求库，使用的话，可对BKBaseRequest进行继承扩展
