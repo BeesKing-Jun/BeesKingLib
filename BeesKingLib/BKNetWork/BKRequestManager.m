@@ -103,12 +103,11 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
 - (void)BKPostWithRequest:(BKBaseRequest *)request successed:(void(^)(id responseObject))successBlock failed:(void(^)(NSError *error))failedBlock{
     NSString * URLString = [self getURLString:request];
     [self setHeaderParams:request];
-    self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
 
     BKLog(@"BKBaseRequest--%@\n Params--%@",URLString,request.params);
     
     request.requestTask = [self.httpSessionManager POST:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        BKLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
+        BKLog(@"BKBaseRequest--%@\n header--%@\nParams--%@\n请求结果为%@", URLString, self.httpSessionManager.requestSerializer.HTTPRequestHeaders,request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
@@ -125,7 +124,7 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
     [self setHeaderParams:request];
     BKLog(@"BKBaseRequest--%@\n Params--%@", URLString, request.params);
     request.requestTask = [self.httpSessionManager GET:URLString parameters:request.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        BKLog(@"BKBaseRequest--%@\n Params--%@\n请求结果为%@", URLString, request.params, responseObject);
+        BKLog(@"BKBaseRequest--%@\n header--%@\nParams--%@\n请求结果为%@", URLString, self.httpSessionManager.requestSerializer.HTTPRequestHeaders,request.params, responseObject);
         if (successBlock) {
             successBlock(responseObject);
         }
@@ -179,7 +178,7 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
         });
 
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        BKLog(@"BKBaseRequest--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", URLString, request.params, request.dataParams, responseObject);
+        BKLog(@"BKBaseRequest--%@\n header--%@\n Params--%@\n dataParams -- %@\n请求结果为%@", URLString, self.httpSessionManager.requestSerializer.HTTPRequestHeaders,request.params, request.dataParams, responseObject);
         //上传成功回调
         if(successBlock){
             successBlock(responseObject);
@@ -208,6 +207,7 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
 
 - (void)setHeaderParams:(BKBaseRequest *)request
 {
+    self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
     if (request.headerParams) {
         [request.headerParams.allKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [self.httpSessionManager.requestSerializer setValue:[request.headerParams objectForKey:obj] forHTTPHeaderField:[NSString stringWithFormat:@"%@", obj]];
