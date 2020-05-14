@@ -30,7 +30,6 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
     dispatch_once(&onceToken, ^{
         manager = [[BKRequestManager alloc] init];
     });
-    manager.httpSessionManager.requestSerializer.timeoutInterval = 20.0;
     return manager;
 }
 
@@ -46,6 +45,7 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
 {
     if(self = [super init]){
         self.httpSessionManager = [[AFHTTPSessionManager alloc] init];
+        self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
         self.httpSessionManager.requestSerializer.timeoutInterval = 20.0;
         self.httpSessionManager.responseSerializer = [AFJSONResponseSerializer serializer];
         self.httpSessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/plain", @"text/javascript", @"text/json", @"text/html",@"audio/mpeg",@"image/jpeg",@"image/png", @"application/octet-stream",nil];
@@ -207,7 +207,6 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
 
 - (void)setHeaderParams:(BKBaseRequest *)request
 {
-    self.httpSessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
     if (request.headerParams) {
         [request.headerParams.allKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [self.httpSessionManager.requestSerializer setValue:[request.headerParams objectForKey:obj] forHTTPHeaderField:[NSString stringWithFormat:@"%@", obj]];
