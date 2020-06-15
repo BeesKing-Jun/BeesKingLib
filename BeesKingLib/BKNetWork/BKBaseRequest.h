@@ -49,7 +49,8 @@ typedef NS_ENUM(NSInteger, BKUpLoadSourceType) {
 @property (nonatomic, assign)   BKRequestType requestType;
 /**当前请求任务，可取消*/
 @property (nonatomic, strong)   NSURLSessionDataTask *requestTask;
-
+/**要上传的文件数组 存放UpLoadModel*/
+@property (nonatomic, strong)    NSArray * uploadFiles;
 
 #pragma mark - 上传图片、文件相关
 /**

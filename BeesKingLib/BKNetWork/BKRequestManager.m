@@ -151,6 +151,11 @@ printf("%s %s [第%d行]\n method: %s \n %s\n",[str UTF8String], [[[NSString str
             case BKUpLoadSourceType_Data:{
                 if(request.uploadFileModel.uploadData){
                     [formData appendPartWithFileData:request.uploadFileModel.uploadData name:request.uploadFileModel.imageName fileName:request.uploadFileModel.imageFileName mimeType:request.uploadFileModel.imageType];
+                }else if (request.uploadFiles){
+                    for (int i = 0; i<request.uploadFiles.count; i++) {
+                        BKRequestFileUpload * model = request.uploadFiles[i];
+                        [formData appendPartWithFileData:model.uploadData name:model.imageName fileName:model.imageFileName mimeType:model.imageType];
+                    }
                 }
                 break;
             }
