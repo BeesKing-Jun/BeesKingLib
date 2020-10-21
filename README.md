@@ -1,6 +1,6 @@
 # BeesKingLib
 
-[![CI Status](https://img.shields.io/travis/s18782934812/BeesKingLib.svg?style=flat)](https://travis-ci.org/s18782934812/BeesKingLib)
+[![CI Status](https://img.shields.io/travis/BeesKing-Jun/BeesKingLib.svg?style=flat)](https://travis-ci.org/BeesKing-Jun/BeesKingLib)
 [![Version](https://img.shields.io/cocoapods/v/BeesKingLib.svg?style=flat)](https://cocoapods.org/pods/BeesKingLib)
 [![License](https://img.shields.io/cocoapods/l/BeesKingLib.svg?style=flat)](https://cocoapods.org/pods/BeesKingLib)
 [![Platform](https://img.shields.io/cocoapods/p/BeesKingLib.svg?style=flat)](https://cocoapods.org/pods/BeesKingLib)

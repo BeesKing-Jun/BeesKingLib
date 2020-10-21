@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/s18782934812/BeesKingLib'
+  s.homepage         = 'https://github.com/BeesKing-Jun/BeesKingLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 's18782934812' => '836152122@qq.com' }
-  s.source           = { :git => 'https://github.com/s18782934812/BeesKingLib.git', :tag => s.version.to_s }
+  s.author           = { 'BeesKing-Jun' => '836152122@qq.com' }
+  s.source           = { :git => 'https://github.com/BeesKing-Jun/BeesKingLib.git', :tag => s.version.to_s }
   s.platform     = :ios, "8.0"
   
   s.subspec 'BKCommon' do |ss|
